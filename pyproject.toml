@@ -25,7 +25,6 @@ classifiers = [
 requires-python = ">=3.11"
 dependencies = [
     "build123d>=0.8.0",
-    "ocp>=7.7.0",
     "numpy>=1.24.0",
     "typing-extensions>=4.0.0",
 ]
@@ -43,6 +42,7 @@ nwo = [
 [project.scripts]
 nwo-cad = "nwo_text_cad.cli.cad:main"
 nwo-urdf = "nwo_text_cad.cli.urdf:main"
+nwo-sdf = "nwo_text_cad.cli.sdf:main"
 nwo-assembly = "nwo_text_cad.cli.assembly:main"
 nwo-production = "nwo_text_cad.cli.production:main"
 

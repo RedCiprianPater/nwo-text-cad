@@ -46,6 +46,7 @@ setup(
         "console_scripts": [
             "nwo-cad=nwo_text_cad.cli.cad:main",
             "nwo-urdf=nwo_text_cad.cli.urdf:main",
+            "nwo-sdf=nwo_text_cad.cli.sdf:main",
             "nwo-assembly=nwo_text_cad.cli.assembly:main",
             "nwo-production=nwo_text_cad.cli.production:main",
         ],

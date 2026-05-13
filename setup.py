@@ -27,7 +27,7 @@ setup(
     ],
     python_requires=">=3.11",
     install_requires=[
-        "build123d>=0.15.0",
+        "build123d>=0.8.0",
         "ocp>=7.7.0",
         "numpy>=1.24.0",
         "typing-extensions>=4.0.0",
